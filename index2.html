@@ -1,0 +1,164 @@
+<!--Purav Sidhu 200555445 project-->
+<!--second page-->
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+<head>
+    <style>
+        div.gallery {   /* creating an hover effect on gallery and adding effects on it*/
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        * {      /*erasing all the pre defined effects */
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .Logo {
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 30%;
+            border: 3px solid white;
+            border-radius: 50px;
+            margin: 10%;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+
+        .nav-list {
+            width: 60%;
+            display: flex;
+            /*  background-color: black;  */
+            align-items: center;
+        }
+
+        .nav-list li {
+            list-style: none;
+            padding: 20px 50px;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .nav-list li a:hover {
+            color: grey;
+        }
+
+        .rightNav {
+            width: 30%;
+            text-align: right;
+            padding: 0 23px;
+        }
+
+
+        .background {
+            background: rgba(0, 0, 0, 0.7) url('images/timeline.png');
+            background-size: cover;
+            background-blend-mode: darken;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="images/1.jpg" alt="Logo"></div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index2.html" target="_blank">Gallery</a></li>
+            <li><a href="#payment" target="_blank">Payment</a></li>
+            <li><a href="#Contact" target="_blank">Contact Us</a></li>
+        </ul>
+    </nav>
+    <ul>
+            <li>
+                <div class="gallery">
+                    <a target="_blank" href="images/4.jpg">
+                        <img src="images/4.jpg" alt="John Logie" width="600" height="400">
+                    </a>
+                    <div class="desc"><a href="https://www.pinterest.co.uk/pin/80713018292019311/" target="_blank">
+                            Product 1 :-Mechanical Television: John Logie Baird invented the mechanical television a precursor to
+                            the
+                            modern
+                            television in 1925</a></div>
+            </li>
+        </div>
+<br><br>
+        <li>
+            <div class="gallery">
+                <a target="_blank" href="images/5.jpeg">
+                    <img src="images/5.jpeg" alt="RCA TT-5" width="600" height="400">
+                </a>
+                <div class="desc"><a href="http://www.earlytelevision.org/rca_tt-5.html" target="_blank">Product 2:-Early
+                        Product 2:- Electronic
+                        Television
+                        RCA TT-5</a></div>
+            </div>
+        </li>
+
+        <li>
+            <div class="gallery">
+                <a target="_blank" href="images/2.jpg">
+                    <img src="images/2.jpg" alt="1884: German technician" width="600" height="400">
+                </a>
+                <div class="desc"><a href="https://en.wikipedia.org/wiki/File:Nipkows_apparat_Tekniska_museet.jpg"
+                        target="_blank">Product 3:- 1884: German technician and inventor Paul Nipkow managed to transmit static
+                        image
+                        with
+                        18 horizontal lines of resolution.</a></div>
+            </div>
+        </li>
+
+        <li>
+            <div class="gallery">
+                <a target="_blank" href="images/6.jpeg">
+                    <img src="images/6.jpeg" alt="Radio Corporation" width="600" height="400">
+                </a>
+                <div class="desc"><a
+                        href="https://www.earlytelevision.org/worlds_fair.html#:~:text=RCA%20introduced%20television%20to%20the%20American%20public%20at,were%20televised%2C%20and%20NBC%20began%20regularly%20scheduled%20broadcasts."> Product  4:-1939: The early electronic Television, the Radio Corporation of America introduced and explained television to the American public at a
+                        World
+                        Fair.</a></div>
+            </div>
+        </li>
+    </ul>
+</body>
+
+</html>
